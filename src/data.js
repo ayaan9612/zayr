@@ -11,8 +11,8 @@ export const products = [
     longDescription:
       'Tailored for oversized comfort with a fashion-editorial silhouette, this hoodie pairs brushed cotton warmth with softly embroidered poetry on the cuff and spine.',
     images: [
-      '/products/sukoon-1.png',
-      '/products/sukoon-2.png',
+      `${import.meta.env.BASE_URL}products/sukoon-1.png`,
+      `${import.meta.env.BASE_URL}products/sukoon-2.png`,
     ],
   },
   {
