@@ -1,5 +1,5 @@
-const sukoonPrimaryImage = new URL('./images/sukoon.png', import.meta.url).href
-const sukoonSecondaryImage = new URL('./assets/hero.png', import.meta.url).href
+const sukoonPrimaryImage = `${import.meta.env.BASE_URL}products/sukoon-1.png?v=20260525`
+const sukoonSecondaryImage = `${import.meta.env.BASE_URL}products/sukoon-2.png?v=20260525`
 
 export const products = [
   {
